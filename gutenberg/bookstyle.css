@@ -1,0 +1,56 @@
+body {
+  
+  background-image:url("background.jpg");
+  font-family: cursive, fantasy, serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  background-image: url("headerbackground.jpeg") ;
+  font-weight: bold;
+  
+}
+p {
+  color: #660000;
+  font-weight: bold;
+
+}
+
+pre {
+  margin:5%;
+  margin-left: 15%;
+  font-size: medium;
+
+}
+img {
+  border: 1px solid #ddd;
+  background-color: seashell;
+  border-radius: 50%;
+  padding: 5px;
+  width: 150px;
+}
+/*image caption decoration */
+div.fig ~ h5 {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  
+}
+div.fig ~ h5 > a {
+  text-decoration: none;
+  
+}
+div.fig ~ h5:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+
+
+}
+
+p.poem {
+  font-family: fantasy, cursive, serif;
+  font-style: italic;
+}
+p.right {
+  font-family: fantasy, cursive, serif;
+  font-style: italic;
+}
+/*image caption decoration end */
