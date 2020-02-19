@@ -21,4 +21,8 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+References
+=================
+1. Side Bar CSS: https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
+
 
